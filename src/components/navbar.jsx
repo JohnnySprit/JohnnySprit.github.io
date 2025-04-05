@@ -12,26 +12,26 @@ export const NavBar = ({menuOpen, setMenuOpen}) => {
     <nav>
         <div className="max-w-5xl mx-auto px-4">
             <div className="flex justify-between items-center h-12">
-                <a href = "#home" className="font-[150] text-2xl">
+                <a href = "#home" className="font-[200] text-3xl">
                     <span>Johnny</span><span className="text-green-600">Zheng</span>
                 </a>
                 
-                <div className="w-7 h-5 relative cursor-pointer z-40 md:hidden" onClick = {() => setMenuOpen((prev) => !prev)
+                <div className="text-2xl w-7 h-8 relative cursor-pointer z-40 md:hidden" onClick = {() => setMenuOpen((prev) => !prev)
                 }>
-                    &#9776;
+                    &#9982;
                 </div>
 
-                <div className="navbuttons hidden md:flex items-center space-x-8">
-                    <a href="#home" className="text-gray-300 hover:text-white transition-colors" >
+                <div className="navbuttons text-2xl hidden md:flex items-center space-x-8">
+                    <a href="#home" className="text-gray-300 hover:text-green-600 duration-300 transition-colors" >
                         Home
                     </a>
-                    <a href="#about" className="text-gray-300 hover:text-white transition-colors" >
+                    <a href="#about" className="text-gray-300 hover:text-green-600 duration-300 transition-colors" >
                         About
                     </a>
-                    <a href="#projects" className="text-gray-300 hover:text-white transition-colors" >
+                    <a href="#projects" className="text-gray-300 hover:text-green-600 duration-300 transition-colors" >
                         Projects
                     </a>
-                    <a href="#contact" className="text-gray-300 hover:text-white transition-colors" >
+                    <a href="#contact" className="text-gray-300 hover:text-green-600 duration-300 transition-colors" >
                         Contact
                     </a>
                 </div>

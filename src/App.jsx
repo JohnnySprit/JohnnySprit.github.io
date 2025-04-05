@@ -22,14 +22,13 @@ function App() {
     <iframe
     className="video"
     width="1920" height="1080"
-    src="https://www.youtube.com/embed/QszMaw-L08o?autoplay=1&loop=1&mute=1&controls=0&playlist=QszMaw-L08o">
+    src="https://www.youtube.com/embed/QszMaw-L08o?autoplay=1&loop=1&mute=1&controls=0&start=6&playlist=QszMaw-L08o">
     </iframe>
   </div>
   <div className='main'>
         <NavBar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
         <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
         <Home/>
-        // more to add
         <About/>
   </div>
       </div>

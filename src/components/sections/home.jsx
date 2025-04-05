@@ -6,7 +6,7 @@ export const Home = () => {
             </h1>
 
             <p className="flex justify-center space-x-4 m-4">
-                I'm an undergraduate studying computer science with a minor in data science <br/> at
+                I'm an undergraduate computer science student with a minor in data science <br/> at
                 Indiana University in Bloomginton, IN.
             </p>
 
