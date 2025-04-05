@@ -5,7 +5,7 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/JohnnySprit.github.io",
+  base: "",
   server: {
     port: 8000,
     watch: {
