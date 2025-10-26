@@ -1,12 +1,12 @@
 @import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+
 html, body{
   margin: 0;
   padding: 0;
   background: black;
   font-family: "Inter", sans-serif;
-  font-style: italic;
   font-weight: 200;
   font-feature-settings: 'liga' 1, 'calt' 1;
   color: #f3f4f6;
@@ -18,31 +18,7 @@ body::-webkit-scrollbar {
 
 .main {
   position: relative;
-  background: rgba(0, 0, 0, 0.5); 
+  background: rgba(0, 0, 0, 0.5);
   color: white;
   padding: 1rem;
-}
-
-.video {
-  position: fixed;
-  top: 0;
-  left: 0;
-
-  object-fit: cover;
-}
-
-.navbuttons {
-  font-weight: 200
-}
-
-@layer utilies {
-  @keyframes loading {
-    0% {
-      transform: translateX(-100%);
-    }
-    100% {
-      transform: translateX(250%);
-    }
-  }
-
 }
