@@ -16,7 +16,7 @@ export const NavBar = ({menuOpen, setMenuOpen}) => {
                 <a href = "" className="font-[200] text-3xl">
                     <span>Johnny</span><span className="text-green-600">Zheng</span>
                 </a>
-                
+
                 <div className="text-2xl w-7 h-8 relative cursor-pointer z-40 md:hidden" onClick = {() => setMenuOpen((prev) => !prev)
                 }>
                     &#9982;
