@@ -1,24 +1,49 @@
 @import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+* {
+  scroll-behavior: smooth;
+}
 
 html, body{
   margin: 0;
   padding: 0;
-  background: black;
+  background: white;
   font-family: "Inter", sans-serif;
-  font-weight: 200;
+  font-weight: 400;
   font-feature-settings: 'liga' 1, 'calt' 1;
-  color: #f3f4f6;
+  color: #1f2937;
 }
 
 body::-webkit-scrollbar {
-  display: none;
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #44554a;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #51775d;
+  border-radius: 4px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #51775d;
 }
 
 .main {
   position: relative;
-  background: rgba(0, 0, 0, 0.5);
-  color: white;
-  padding: 1rem;
+  background: #1b2716;
+  color: #1b2716;
+  min-height: 100vh;
+}
+
+nav {
+  background: #1b2716;
+  backdrop-filter: blur(10px);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  padding: 1rem 0;
 }
